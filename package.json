@@ -4,6 +4,11 @@
   "private": true,
   "description": "Site institucional da Brasil Bag.",
   "scripts": {
-    "dev": "python -m http.server 5175 --bind 127.0.0.1"
+    "dev": "vite --host 127.0.0.1 --port 5175",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0"
   }
 }
