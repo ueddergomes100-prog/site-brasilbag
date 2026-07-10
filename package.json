@@ -1,0 +1,9 @@
+{
+  "name": "brasil-bag-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional da Brasil Bag.",
+  "scripts": {
+    "dev": "python -m http.server 5175 --bind 127.0.0.1"
+  }
+}
